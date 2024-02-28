@@ -1,0 +1,567 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(./desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98.5vw;
+    height: 100vh;
+}
+svg{
+    height: 50px;
+}
+.main1 {
+    display: none;
+}
+.creations1{
+    display: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+    margin-left: 50px;
+}
+.bar{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    position: relative;
+    font-family: "Alata", sans-serif;
+    padding-left: 508px;
+}
+.bar p:hover{
+    text-decoration: underline;
+}
+.bar p{
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.hamburger{
+    visibility: hidden;
+}
+.content{
+    margin-top: 13%;
+    margin-left: 8%;
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    height: 50vh;
+    width: 40vw;
+    font-size: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 250;
+    line-height: 75px;
+}
+.header{
+    padding-top: 10%;
+    padding-left: 10%;
+    display: flex;  
+}
+.image{
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+}
+.image-content{
+    border: 2px solid white;
+    background-color: white;
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 55vh;
+    width: 45vw;
+    margin-left: 430px;
+    margin-top: 100px;
+    position: absolute;
+}
+.image-content p{
+    padding-top: 5%;
+    padding-left: 10%;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 250;
+    font-size: 40px;
+}
+.image-content span{
+    font-family: "Alata", sans-serif;
+    padding-left: 10%;
+    padding-top: 5px;
+    line-height: 25px;
+    color: grey;
+}
+.creations{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 250;
+    font-size: 40px;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+    gap: 50px;
+}
+.earth img{
+    position: absolute;
+}
+.earth p{
+    position: relative;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 320px;
+    margin-left: 20px;
+}
+.night img{
+    position: absolute;
+}
+.night p{
+    position: relative;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: 320px;
+    margin-left: 20px;
+}
+.soccer img{
+    position: absolute;
+}
+.soccer p{
+    position: relative;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: 320px;
+    margin-left: 20px;
+}
+.grid img{
+    position: absolute;
+}
+.grid p{
+    position: relative;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: 320px;
+    margin-left: 20px;
+}
+.above img{
+    position: absolute;
+}
+.above p{
+    position: relative;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: 270px;
+    margin-left: 20px;
+}
+.pocket img{
+    position: absolute;
+}
+.pocket p{
+    position: relative;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: 320px;
+    margin-left: 20px;
+}
+.curiosity img{
+    position: absolute;
+}
+.curiosity p{
+    position: relative;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: 320px;
+    margin-left: 20px;
+}
+.image1{
+    visibility: hidden;
+}
+.fish img{
+    position: absolute;
+}
+.fish p{
+    position: relative;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: 300px;
+    margin-left: 20px;
+}
+.see{
+    display: grid;
+    border: 2px solid black;
+    height: 50px;
+    margin: 5%;
+    width: 150px;
+    letter-spacing: 3px;
+    background-color: white;
+    place-content: center;
+    margin-left: 45%;
+    font-family: "Josefin Sans", sans-serif;
+}
+.see a{
+    text-decoration: none;
+    color: black;
+}
+.see:hover{
+    background-color: black;
+}
+.see a:hover{
+    color: white;
+}
+footer{
+    height: 32vh;
+    background-color: black;
+}
+.dropdown{
+    display: none;
+}
+.loop{
+    display: flex;
+    padding-top: 3%;
+    padding-left: 6%;
+    flex-direction: row;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 670px;
+}
+.logo img{
+    margin-left: 30px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+.image-content1{
+    display: none;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: "Alata", sans-serif;
+    margin-left: 50px;
+    font-weight: 500;
+    padding-top: 2%;
+    cursor: pointer;
+}
+.about p{
+    margin-left: 25px;
+}
+.copy{
+    margin-left: 350px;
+    font-size: 14px;
+    color: grey;
+}
+
+@media screen and (max-width:426px) {
+    .navbar{
+        background-image: url(./mobile/image-hero.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 140vh;
+    }
+    .studio{
+        margin-top: 20px;
+        height: 5vh;
+        width: 30vw;
+        position: relative;
+        right: 30px;
+    }
+    .hamburger{
+        margin-left: 170px;
+        margin-top: 20px;
+        visibility: visible;   
+    }
+    .content{
+        margin-top: 35%;
+        margin-left: 6%;
+        padding: 15px;
+        border: 2px solid white;
+        color: white;
+        height: 47vh;
+        width: 87vw;
+        font-size: 45px;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 200;
+        line-height: 60px;
+    }
+    .list{
+        display: none;
+    }
+    .image{
+        display: none;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .image1{
+        visibility: visible;
+        position: relative;
+        right: 20px;
+        top: 10px;
+    }
+    .image-content1{
+        display: inline;
+    }
+    .image-content1 p{
+        margin-top: 10%;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5%;
+        padding-left: 10%;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 250;
+        font-size: 40px;
+        margin-bottom: 5%;
+    }
+    .image-content1 span{
+        display: flex;
+        width: 90%;
+        font-family: "Alata", sans-serif;
+        padding-left: 10%;
+        text-align: center;
+        padding-top: 5px;
+        line-height: 25px;
+        color: grey;
+    }
+    .image-content{
+        display: none;
+    }
+    .main{
+        display: none;
+    }
+    .creations{
+        display: none;
+    }
+    .creations1{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 250;
+        font-size: 40px;
+    }
+    .see{
+        position: relative;
+        right: 40px;
+    }
+    .main1{
+        display: flex;
+        flex-direction: column;
+    }
+    .earth1 img{
+        position: absolute;
+        margin-left: 20px;
+    }
+    .earth1 p{
+        position: relative;
+        color: white;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 25px;
+        font-weight: 200;
+        margin-top:90px ;
+        margin-left: 30px;
+        margin-bottom: 15%;
+    }
+    .night1 img{
+        position: absolute;
+        margin-left: 20px;
+    }
+    .night1 p{
+        position: relative;
+        color: white;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 25px;
+        font-weight: 200;
+        margin-top:90px ;
+        margin-left: 30px;
+        margin-bottom: 15%;
+    }
+    .soccer1 img{
+        position: absolute;
+        margin-left: 20px;
+    }
+    .soccer1 p{
+        position: relative;
+        color: white;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 25px;
+        font-weight: 200;
+        margin-top:90px ;
+        margin-left: 30px;
+        margin-bottom: 15%;
+    }
+    .grid1 img{
+        position: absolute;
+        margin-left: 20px;
+    }
+    .grid1 p{
+        position: relative;
+        color: white;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 25px;
+        font-weight: 200;
+        margin-top:90px ;
+        margin-left: 30px;
+        margin-bottom: 15%;
+    }
+    .above1 img{
+        position: absolute;
+        margin-left: 20px;
+    }
+    .above1 p{
+        position: relative;
+        color: white;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 25px;
+        font-weight: 200;
+        margin-top:90px ;
+        margin-left: 30px;
+        margin-bottom: 15%;
+    }
+    .pocket1 img{
+        position: absolute;
+        margin-left: 20px;
+    }
+    .pocket1 p{
+        position: relative;
+        color: white;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 25px;
+        font-weight: 200;
+        margin-top:90px ;
+        margin-left: 30px;
+        margin-bottom: 15%;
+    }
+    .curiosity1 img{
+        position: absolute;
+        margin-left: 20px;
+    }
+    .curiosity1 p{
+        position: relative;
+        color: white;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 25px;
+        font-weight: 200;
+        margin-top:90px ;
+        margin-left: 30px;
+        margin-bottom: 15%;
+    }
+    .fish1 img{
+        position: absolute;
+        margin-left: 20px;
+    }
+    .fish1 p{
+        position: relative;
+        color: white;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 25px;
+        font-weight: 200;
+        margin-top:90px ;
+        margin-left: 30px;
+        margin-bottom: 15%;
+    }
+    footer{
+        margin-top: 20%;
+        display: grid;
+        height: 130vh;
+        width: 98vw;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .loop img{
+        margin-left: 10%;
+        margin-top: 5%;
+        height: 30px;
+        width: 190px;
+        margin-bottom: 10%;
+    }
+    .logo{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        width: 30px;
+        right: 945px;
+        top: 440px;
+    }
+    .logo img{
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    .about{
+        display: grid;
+        color: white;
+        grid-template-rows: repeat(5,1fr);
+        grid-template-columns: repeat(1,1fr);
+        position: relative;
+        font-weight: 550;
+    }
+    .about p{
+        margin-top: 35px;
+        position: relative;
+        bottom: 100px;
+        line-height: 1.5rem;
+        left: 110px;
+        padding-bottom: 5px;
+    }
+    .copy{
+        position: relative;
+        right: 480px;
+        margin-top: 60px;
+    }   
+    .dropdown{
+        display: none;
+    } 
+    /*.dropdown:hover .down{
+        max-height: 200px;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+    .down {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 10px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 1s ease;
+      }*/
+}   
